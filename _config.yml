@@ -14,21 +14,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: papau.org blog
+author: "Philipp Grathwohl"
 email: blog@papau.org
+logo: /images/papauorg_logo.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal blog of the infamous founder and only member of papau.org.
-  For serious, and not so serious, mainly not so serious tech and development topics from own experience.
+ My thoughts on tech and development. Some serious - some not. More not, I guess... 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "blog.papau.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: powerpille
 github_username:  papauorg
+twitter:
+  username: powerpille
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -40,3 +43,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+social:
+  name: Philipp Grathwohl
+  links: https://twitter.com/powerpille
+  lang: en_GB 
