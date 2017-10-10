@@ -16,15 +16,18 @@
 title: papau.org blog
 author: "Philipp Grathwohl"
 email: blog@papau.org
+repository: "papauorg/papauorg.github.io"
 logo: /images/papauorg_logo.png
+lang: en
 description: >- # this means to ignore newlines until "baseurl:"
  My thoughts on tech and development. Some serious - some not. More not, I guess... 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "blog.papau.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: powerpille
+twitter_username: "powerpille"
 github_username:  papauorg
 twitter:
-  username: powerpille
+  username: "powerpille"
+  site: powerpille
 
 # Build settings
 markdown: kramdown
@@ -45,6 +48,5 @@ plugins:
 #   - vendor/ruby/
 
 social:
-  name: Philipp Grathwohl
+  name: "Philipp Grathwohl"
   links: https://twitter.com/powerpille
-  lang: en_GB 
