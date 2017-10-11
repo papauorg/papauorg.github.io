@@ -50,3 +50,9 @@ plugins:
 social:
   name: "Philipp Grathwohl"
   links: https://twitter.com/powerpille
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/papauorg_logo.png
