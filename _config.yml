@@ -53,3 +53,9 @@ social:
 
 webmaster_verifications:
   google: xwHBYShEma93QAQ33cTsAj6mN8XSySDYZKeRLCAwWkk
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/papauorg_logo.png
