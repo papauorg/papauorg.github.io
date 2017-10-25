@@ -6,3 +6,11 @@
 .image-float-right{
  float:right;
 }
+
+.image-float-left{
+    float: left;
+}
+
+figure > figcaption {
+    text-align: center;
+}
