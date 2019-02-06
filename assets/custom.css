@@ -3,6 +3,11 @@
  display: block;
 }
 
+.image-center > img{
+    display: block;
+    margin: 0 auto;
+}
+
 .image-float-right{
  float:right;
 }
