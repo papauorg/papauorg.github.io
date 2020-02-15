@@ -226,7 +226,7 @@ then
 		var rawLastUpdate = item.lastUpdate
 		if (rawLastUpdate !== null)
 		{
-			var lastUpdate = new DateTimeType(rawLastUpdate)
+			var lastUpdate = rawLastUpdate.toInstant().toDateTime()
 			if (lastUpdate.plusHours(24).isBefore(now))
 			{
 				itemsThatNeedUpdates += item.name + ", "
