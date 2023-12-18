@@ -24,11 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.papau.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title.html
-twitter_username: "powerpille"
 github_username:  papauorg
-twitter:
-  username: "powerpille"
-  site: powerpille
 
 # Build settings
 markdown: kramdown
@@ -50,7 +46,6 @@ plugins:
 
 social:
   name: "Philipp Grathwohl"
-  links: https://twitter.com/powerpille
 
 webmaster_verifications:
   google: xwHBYShEma93QAQ33cTsAj6mN8XSySDYZKeRLCAwWkk
